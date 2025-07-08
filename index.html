@@ -319,6 +319,14 @@
         .contact-button:hover {
             background-color: #333;
         }
+
+        .hero-cta-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px; /* space between button and email */
+            margin-top: 12px;
+        }
     </style>
 </head>
 <body>
@@ -336,13 +344,14 @@
                 <h1>Get your kid into the school of their dreams.</h1>
                 <div class="hero-subtitle">Paying for a college admissions "coach"? </div>
                 <div class="hero-subtitle">You're wasting your money.</div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAwRc0LBJOvNFCY_CFhAgs04z0sk6OV0D5ZBOTbpaMaacKQw/viewform?usp=sharing&ouid=101916633624328299717"
-      class="contact-button"
-      style="margin-bottom: 20px; display: inline-block;"
-      target="_blank">
-      Book a free call
-   </a>
-                <a href="mailto:admissionsbyfahad@gmail.com" class="contact-email">admissionsbyfahad@gmail.com</a>
+                <div class="hero-cta-group">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAwRc0LBJOvNFCY_CFhAgs04z0sk6OV0D5ZBOTbpaMaacKQw/viewform?usp=sharing&ouid=101916633624328299717"
+                       class="contact-button"
+                       target="_blank">
+                       Book a free call
+                    </a>
+                    <a href="mailto:admissionsbyfahad@gmail.com" class="contact-email">admissionsbyfahad@gmail.com</a>
+                </div>
             </div>
             <div class="hero-image">
                 <img src="static/images/graduation.JPG" alt="Fahad with Stanford graduates">
