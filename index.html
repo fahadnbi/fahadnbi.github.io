@@ -315,7 +315,9 @@
             text-decoration: none;
             border-radius: 4px;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 500; /* Match the footer business name */
+            font-family: 'Jost', sans-serif; /* Use your main site font */
+            letter-spacing: 0.02em;
             transition: background-color 0.3s ease;
         }
 
@@ -341,7 +343,8 @@
         }
 
         .site-footer {
-            background: #f5f5f5;
+            /* Remove background for no grey fill */
+            background: none;
             color: #333;
             padding: 40px 0 20px 0;
             text-align: center;
@@ -350,13 +353,15 @@
             border-top: 1px solid #e0e0e0;
         }
         .footer-links {
-            margin-bottom: 12px;
+            margin-bottom: 32px; /* Increased from 12px for more space */
         }
         .footer-links a {
             color: #333;
             text-decoration: none;
             margin: 0 18px;
-            font-weight: 500;
+            font-weight: 400; /* Match the business name style */
+            font-family: 'Jost', sans-serif; /* Use your main site font */
+            letter-spacing: 0.02em;
             transition: color 0.2s;
         }
         .footer-links a:hover {
@@ -364,9 +369,12 @@
             text-decoration: underline;
         }
         .footer-business {
-            font-size: 14px;
-            color: #888;
-            margin-top: 8px;
+            font-size: 16px;
+            color: #000;
+            font-weight: 500; /* Make it stand out */
+            font-family: 'Jost', sans-serif; /* Use your main site font */
+            letter-spacing: 0.02em;
+            margin-top: 0;
         }
     </style>
 </head>
