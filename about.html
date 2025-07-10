@@ -10,8 +10,20 @@
     h1 { font-size: 36px; font-weight: 400; margin-bottom: 24px; }
     p { font-size: 18px; line-height: 1.6; }
     .site-footer { background: #f5f5f5; color: #333; padding: 40px 0 20px 0; text-align: center; font-size: 15px; margin-top: 80px; border-top: 1px solid #e0e0e0; }
-    .footer-links { margin-bottom: 12px; }
-    .footer-links a { color: #333; text-decoration: none; margin: 0 18px; font-weight: 500; transition: color 0.2s; }
+    .footer-links {
+        margin-bottom: 32px;
+        font-size: 13px; /* Decreased font size */
+    }
+    .footer-links a {
+        color: #333;
+        text-decoration: none;
+        margin: 0 18px;
+        font-weight: 400;
+        font-family: 'Jost', sans-serif;
+        letter-spacing: 0.02em;
+        transition: color 0.2s;
+        font-size: 13px; /* Decreased font size */
+    }
     .footer-links a:hover { color: #000; text-decoration: underline; }
     .footer-business { font-size: 14px; color: #888; margin-top: 8px; }
   </style>
@@ -29,9 +41,7 @@
       <a href="contact.html">Contact Us</a>
       <a href="privacy.html">Privacy & Terms</a>
     </div>
-    <div class="footer-business">
-      Admissions by Fahad &mdash; Consulting Services
-    </div>
+    <!-- Removed business name for minimal footer -->
   </footer>
 </body>
 </html> 
